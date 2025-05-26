@@ -1,0 +1,7 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,File ID,Unique identifier for the file,TEXT,
+artifact_id,Artifact ID,Reference to the associated artifact,TEXT,
+file_date,File Date,Date associated with the file (creation/upload date),TEXT,
+path,File Path,Filesystem path or URL to the file,TEXT,
+created_at,Created At,Timestamp when the file entry was created,TEXT,
+updated_at,Updated At,Timestamp when the file entry was last updated,TEXT,

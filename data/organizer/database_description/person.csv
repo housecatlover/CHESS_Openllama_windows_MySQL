@@ -1,0 +1,13 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,Person ID,Unique identifier for the person,TEXT,
+name,Person Name,Full name of the individual,TEXT,
+info,Person Info,Additional descriptive information about the individual,TEXT,
+created_at,Created At,Timestamp when the person entry was created,TEXT,
+updated_at,Updated At,Timestamp when the person entry was last updated,TEXT,
+bday_end_date,Birthday End Date,End of a known birthday range (if exact date unknown),TEXT,
+bday_start_date,Birthday Start Date,Start of a known birthday range,TEXT,
+dday_end_date,Death End Date,End of a known death date range,TEXT,
+dday_start_date,Death Start Date,Start of a known death date range,TEXT,
+image_id,Image ID,Reference to an image associated with the person,TEXT,
+bday_location_id,Birthday Location ID,Reference to birth location,TEXT,
+dday_location_id,Death Location ID,Reference to death location,TEXT,

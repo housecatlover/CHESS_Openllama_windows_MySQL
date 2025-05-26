@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,Person-Person ID,Unique identifier for the relationship record,TEXT,
+relative_id,Relative ID,ID of the related person,TEXT,
+relation,Relation Type,"Type of relationship (e.g., mother, son, sibling)",TEXT,
+name,Relative Name,Name of the related person,TEXT,
+person_id,Person ID,ID of the primary person in the relationship,TEXT,

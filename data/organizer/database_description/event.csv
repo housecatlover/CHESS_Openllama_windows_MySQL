@@ -1,0 +1,9 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,Event ID,Unique identifier for the event,TEXT,
+name,Event Name,Name or title of the event,TEXT,
+info,Event Info,Additional information or notes about the event,TEXT,
+location_id,Location ID,Reference to location associated with event,TEXT,
+created_at,Created At,Timestamp when the event was created,TEXT,
+updated_at,Updated At,Timestamp when the event was last updated,TEXT,
+end_date,End Date,End date of the event,TEXT,
+start_date,Start Date,Start date of the event,TEXT,

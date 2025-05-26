@@ -1,0 +1,8 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,Artifact ID,Unique identifier for each artifact,TEXT,
+name,Artifact Name,The name or title of the artifact,TEXT,
+description,Description,A detailed description of the artifact,TEXT,
+type,Type,"Type/category of the artifact (e.g., photo, letter)",TEXT,
+created_at,Created At,Timestamp when the artifact was created,TEXT,
+updated_at,Updated At,Timestamp when the artifact was last updated,TEXT,
+info,Additional Info,Supplementary information about the artifact,TEXT,

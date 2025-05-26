@@ -1,0 +1,600 @@
+{
+    "documents_db": {
+        "tables": [
+            {
+                "name": "annotation_image",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "image_id",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": [
+                    "id"
+                ]
+            },
+            {
+                "name": "annotation_image_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "artifact",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "name",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "description",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "type",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "created_at",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "updated_at",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "info",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": [
+                    "id"
+                ]
+            },
+            {
+                "name": "artifact_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "chapter_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "event",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "name",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "info",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "location_id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "created_at",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "updated_at",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "end_date",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "start_date",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": [
+                    "id"
+                ]
+            },
+            {
+                "name": "event_location",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "location_id",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": [
+                    "id"
+                ]
+            },
+            {
+                "name": "event_location_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "event_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "event_tag_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "file",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "artifact_id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "file_date",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "path",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "created_at",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "updated_at",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": [
+                    "id"
+                ]
+            },
+            {
+                "name": "file_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "ingredient_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "instruction_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "link_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "location",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "name",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "info",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "country",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "city",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "created_at",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "updated_at",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "area",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "latitude",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "longitude",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "street_address",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": [
+                    "id"
+                ]
+            },
+            {
+                "name": "location_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "location_tag_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "name_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "name_tag_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "person",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "name",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "info",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "created_at",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "updated_at",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "bday_end_date",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "bday_start_date",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "dday_end_date",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "dday_start_date",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "image_id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "bday_location_id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "dday_location_id",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": [
+                    "id"
+                ]
+            },
+            {
+                "name": "person_bdaylocation_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "person_ddaylocation_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "person_event_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "person_image_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "person_link_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "person_person",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "relative_id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "relation",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "name",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "person_id",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": [
+                    "id"
+                ]
+            },
+            {
+                "name": "person_person_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "person_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "person_tag",
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "artifact_id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "person_id",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "created_at",
+                        "type": "TEXT"
+                    },
+                    {
+                        "name": "updated_at",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": [
+                    "id"
+                ]
+            },
+            {
+                "name": "person_tag_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "recipe_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            },
+            {
+                "name": "story_seq",
+                "columns": [
+                    {
+                        "name": "next_val",
+                        "type": "TEXT"
+                    }
+                ],
+                "primary_keys": []
+            }
+        ],
+        "foreign_keys": [
+            {
+                "table": "event",
+                "column": "location_id",
+                "references": {
+                    "table": "location",
+                    "column": "id"
+                }
+            },
+            {
+                "table": "event_location",
+                "column": "location_id",
+                "references": {
+                    "table": "location",
+                    "column": "id"
+                }
+            },
+            {
+                "table": "file",
+                "column": "artifact_id",
+                "references": {
+                    "table": "artifact",
+                    "column": "id"
+                }
+            },
+            {
+                "table": "person_person",
+                "column": "person_id",
+                "references": {
+                    "table": "person",
+                    "column": "id"
+                }
+            },
+            {
+                "table": "person_tag",
+                "column": "artifact_id",
+                "references": {
+                    "table": "artifact",
+                    "column": "id"
+                }
+            },
+            {
+                "table": "person_tag",
+                "column": "person_id",
+                "references": {
+                    "table": "person",
+                    "column": "id"
+                }
+            }
+        ]
+    }
+}

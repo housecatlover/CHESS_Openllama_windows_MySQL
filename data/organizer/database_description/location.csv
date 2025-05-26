@@ -1,0 +1,12 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,Location ID,Unique identifier for the location,TEXT,
+name,Location Name,"Name of the location (e.g., city, venue)",TEXT,
+info,Location Info,Additional descriptive information about the location,TEXT,
+country,Country,Country of the location,TEXT,
+city,City,City of the location,TEXT,
+created_at,Created At,Timestamp when the location was created,TEXT,
+updated_at,Updated At,Timestamp when the location was last updated,TEXT,
+area,Area,Subregion or district within a city,TEXT,
+latitude,Latitude,Latitude coordinate of the location,TEXT,
+longitude,Longitude,Longitude coordinate of the location,TEXT,
+street_address,Street Address,Street address of the location,TEXT,

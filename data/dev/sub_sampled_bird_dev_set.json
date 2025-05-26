@@ -12,7 +12,7 @@
         "db_id": "california_schools",
         "question": "In Los Angeles how many schools have more than 500 free meals but less than 700 free or reduced price meals for K-12?",
         "evidence": "",
-        "SQL": "SELECT COUNT(CDSCode) FROM frpm WHERE `County Name` = 'Los Angeles' AND `Free Meal Count (K-12)` > 500 AND `Free Meal Count (K-12)` < 700",
+        "SQL": "SELECT COUNT(CDSCode) FROM from WHERE `County Name` = 'Los Angeles' AND `Free Meal Count (K-12)` > 500 AND `Free Meal Count (K-12)` < 700",
         "difficulty": "simple"
     },
     {

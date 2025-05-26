@@ -1,0 +1,331 @@
+{
+  "annotation_image": [
+    {
+      "id": "1",
+      "image_id": "1"
+    },
+    {
+      "id": "2",
+      "image_id": "2"
+    },
+    {
+      "id": "3",
+      "image_id": "3"
+    }
+  ],
+  "annotation_image_seq": [
+    {
+      "next_val": "101"
+    }
+  ],
+  "artifact": [
+    {
+      "id": "1",
+      "name": "Thomas F. O\\'Connell III.jpg",
+      "description": null,
+      "type": "0",
+      "created_at": "2025-01-29 16:02:28.040000",
+      "updated_at": "2025-01-29 16:02:28.040000",
+      "info": "portrait"
+    },
+    {
+      "id": "2",
+      "name": "Margaret M. Delaney O\\'Connell.JPG",
+      "description": null,
+      "type": "0",
+      "created_at": "2025-01-29 16:04:12.164000",
+      "updated_at": "2025-01-29 16:04:12.164000",
+      "info": "portrait"
+    },
+    {
+      "id": "3",
+      "name": "Margaret Mary O.JPG",
+      "description": null,
+      "type": "0",
+      "created_at": "2025-01-29 16:05:48.893000",
+      "updated_at": "2025-01-29 16:05:48.893000",
+      "info": "portrait"
+    },
+    {
+      "id": "4",
+      "name": "Mom 90 bday party.JPG",
+      "description": null,
+      "type": "0",
+      "created_at": "2025-01-29 16:10:31.540000",
+      "updated_at": "2025-01-29 16:10:31.540000",
+      "info": "Mom\\'s 90th Bday party at the Wayside Inn."
+    }
+  ],
+  "artifact_seq": [
+    {
+      "next_val": "101"
+    }
+  ],
+  "chapter": [],
+  "chapter_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "event": [
+    {
+      "id": "2",
+      "name": "Mom\\'s 90th Bday Party",
+      "info": "",
+      "location_id": "2",
+      "created_at": "2025-01-29 16:10:19.859000",
+      "updated_at": "2025-01-29 16:29:14.741000",
+      "end_date": "2016-03-24",
+      "start_date": "2016-03-24"
+    }
+  ],
+  "event_location": [
+    {
+      "id": "2",
+      "location_id": "2"
+    }
+  ],
+  "event_location_seq": [
+    {
+      "next_val": "101"
+    }
+  ],
+  "event_seq": [
+    {
+      "next_val": "101"
+    }
+  ],
+  "event_tag": [],
+  "event_tag_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "file": [
+    {
+      "id": "1",
+      "artifact_id": "1",
+      "file_date": "2024-12-29 05:00:00.000000",
+      "path": "portraits",
+      "created_at": "2025-01-29 16:02:28.007000",
+      "updated_at": "2025-01-29 16:02:28.007000"
+    },
+    {
+      "id": "2",
+      "artifact_id": "2",
+      "file_date": "2024-12-29 05:00:00.000000",
+      "path": "portraits",
+      "created_at": "2025-01-29 16:04:12.157000",
+      "updated_at": "2025-01-29 16:04:12.157000"
+    },
+    {
+      "id": "3",
+      "artifact_id": "3",
+      "file_date": "2024-12-29 05:00:00.000000",
+      "path": "portraits",
+      "created_at": "2025-01-29 16:05:48.893000",
+      "updated_at": "2025-01-29 16:05:48.893000"
+    },
+    {
+      "id": "4",
+      "artifact_id": "4",
+      "file_date": "2015-12-27 05:00:00.000000",
+      "path": "",
+      "created_at": "2025-01-29 16:10:31.540000",
+      "updated_at": "2025-01-29 16:10:31.540000"
+    }
+  ],
+  "file_seq": [
+    {
+      "next_val": "101"
+    }
+  ],
+  "ingredient": [],
+  "ingredient_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "instruction": [],
+  "instruction_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "link": [],
+  "link_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "location": [
+    {
+      "id": "2",
+      "name": "Wayside Inn",
+      "info": "A place for many O\\'Connell celebrations.",
+      "country": "United States(US)",
+      "city": "Sudbury",
+      "created_at": "2025-01-29 16:29:00.962000",
+      "updated_at": "2025-01-29 16:29:00.962000",
+      "area": "Massachusetts",
+      "latitude": null,
+      "longitude": null,
+      "street_address": ""
+    }
+  ],
+  "location_seq": [
+    {
+      "next_val": "101"
+    }
+  ],
+  "location_tag": [],
+  "location_tag_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "name": [],
+  "name_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "name_tag": [],
+  "name_tag_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "person": [
+    {
+      "id": "1",
+      "name": "Thomas F. O\\'Connell III",
+      "info": "My Dad",
+      "created_at": "2025-01-29 16:02:28.123000",
+      "updated_at": "2025-01-29 16:02:28.123000",
+      "bday_end_date": "1921-04-05",
+      "bday_start_date": "1921-04-04",
+      "dday_end_date": null,
+      "dday_start_date": null,
+      "image_id": "1",
+      "bday_location_id": null,
+      "dday_location_id": null
+    },
+    {
+      "id": "2",
+      "name": "Margaret M. Delaney O\\'Connell",
+      "info": "",
+      "created_at": "2025-01-29 16:04:12.172000",
+      "updated_at": "2025-01-29 16:04:12.172000",
+      "bday_end_date": "1926-03-26",
+      "bday_start_date": "1926-03-26",
+      "dday_end_date": "2018-03-24",
+      "dday_start_date": "2018-03-24",
+      "image_id": "2",
+      "bday_location_id": null,
+      "dday_location_id": null
+    },
+    {
+      "id": "3",
+      "name": "Margaret Mary O",
+      "info": "Me",
+      "created_at": "2025-01-29 16:05:48.897000",
+      "updated_at": "2025-01-29 16:06:18.280000",
+      "bday_end_date": "1961-09-16",
+      "bday_start_date": "1961-09-16",
+      "dday_end_date": null,
+      "dday_start_date": null,
+      "image_id": null,
+      "bday_location_id": null,
+      "dday_location_id": null
+    }
+  ],
+  "person_bdaylocation": [],
+  "person_bdaylocation_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "person_ddaylocation": [],
+  "person_ddaylocation_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "person_event": [],
+  "person_event_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "person_image_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "person_link": [],
+  "person_link_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "person_person": [
+    {
+      "id": "1",
+      "relative_id": "2",
+      "relation": "MOTHER",
+      "name": null,
+      "person_id": "3"
+    },
+    {
+      "id": "2",
+      "relative_id": "1",
+      "relation": "FATHER",
+      "name": null,
+      "person_id": "3"
+    }
+  ],
+  "person_person_seq": [
+    {
+      "next_val": "101"
+    }
+  ],
+  "person_seq": [
+    {
+      "next_val": "101"
+    }
+  ],
+  "person_tag": [
+    {
+      "id": "1",
+      "artifact_id": "4",
+      "person_id": "3",
+      "created_at": "2025-01-29 16:10:31.574000",
+      "updated_at": "2025-01-29 16:10:31.574000"
+    },
+    {
+      "id": "2",
+      "artifact_id": "4",
+      "person_id": "2",
+      "created_at": "2025-01-29 16:10:31.590000",
+      "updated_at": "2025-01-29 16:10:31.590000"
+    }
+  ],
+  "person_tag_seq": [
+    {
+      "next_val": "101"
+    }
+  ],
+  "recipe": [],
+  "recipe_seq": [
+    {
+      "next_val": "1"
+    }
+  ],
+  "story": [],
+  "story_seq": [
+    {
+      "next_val": "1"
+    }
+  ]
+}

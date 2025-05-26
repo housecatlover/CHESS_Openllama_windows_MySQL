@@ -1,0 +1,6 @@
+original_column_name,column_name,column_description,data_format,value_description
+id,Person Tag ID,Unique identifier for the person-artifact tag,TEXT,
+artifact_id,Artifact ID,Reference to the artifact,TEXT,
+person_id,Person ID,Reference to the person,TEXT,
+created_at,Created At,Timestamp when the tagging was created,TEXT,
+updated_at,Updated At,Timestamp when the tagging was last updated,TEXT,
