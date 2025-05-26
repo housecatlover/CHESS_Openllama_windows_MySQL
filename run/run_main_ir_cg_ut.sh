@@ -1,6 +1,6 @@
-source .env
-data_mode=$DATA_MODE # Options: 'dev', 'train' 
-data_path=$DATA_PATH # UPDATE THIS WITH THE PATH TO THE TARGET DATASET
+./.env
+data_mode='dev' # Options: 'dev', 'train'
+data_path='data/dev/custom_query.json' # This is the file created with the question & datatype
 
 config="./run/configs/CHESS_IR_CG_UT.yaml"
 
